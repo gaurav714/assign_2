@@ -1,0 +1,58 @@
+body{
+    font-family: alike;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(250, 250, 249);
+}
+logo{
+    float: left;
+}
+.grid{
+    
+    max-width:900px;
+    margin: auto;
+    background-color:teal;
+    margin-top: 210px;
+    
+    
+}
+.text{
+    float: left;
+   width: 300px;
+   margin: auto;
+   padding: 20px;
+   background-color: grey;
+}
+.text h1{
+    color:white;
+    font-size: 50px;
+}
+
+.text p{
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "comic sans-serif";
+}
+jumbotron{
+    color:white;
+    font-size: 50px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+footer a:hover{
+    color: black;
+}
+iframe{
+    width: 440px;
+    height: 300px;
+}
